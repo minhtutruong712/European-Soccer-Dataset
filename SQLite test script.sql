@@ -6,7 +6,6 @@ select * from league;
 select * from match;
 
 
-
 select * from sqlite_master where type = 'table';
 
 with t1 as (
