@@ -1,5 +1,7 @@
 -- SQLite
 SELECT * FROM player;
+
+
 select * from team;
 select * from country;
 select * from league;
@@ -44,6 +46,7 @@ join League l
 group by season, c.name, l.name
 order by season asc, "Goals per match" desc
 ;
+
 
 
 
